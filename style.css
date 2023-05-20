@@ -1,0 +1,43 @@
+nav {
+    
+    background-color: lightblue;
+}
+
+nav h1 {
+    color:black;
+  }
+  
+  nav a {
+    color: black;
+  }
+  
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: pink;
+  }
+  
+  nav ul li {
+    font-style: oblique;
+    font-weight: bold;
+
+  }
+.footer {
+  background-color: lightpink;
+  color: black;
+  text-align: center;
+}
+
+* {
+
+text-align: center;
+
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
